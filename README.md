@@ -29,6 +29,7 @@ This is **Wei Le** Readme file.
 
 This project is to implement store server using GRPC. The store server should be responsible for the following works:
 
+
 1. Establish asynchronous GRPC communication to clients
 
 2. Establish asynchronous GRPC communication to vendors
