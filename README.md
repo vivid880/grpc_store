@@ -24,7 +24,7 @@ This is **Wei Le** Readme file.
 	
 	// run the vendor server waiting for requests from store
 	
-	./test/run_vendors ../src/vendor_addresses.txt
+	./test/run_vendors ./src/vendor_addresses.txt
 	
 	// run the client side to send requests to store server
 	
@@ -73,7 +73,9 @@ This project is to implement store server using GRPC. The store server should be
 ## Additional observations that you have about what you've done
 
 - When trying to compile codes for grpc and protobuf in grpc folder (step 13 for getting the dependencies in project README), even though both grpc and protobuf have been installed successfully, there is an error: fail to create symbolic link
+
   Reason: the downloaded codes for grpc and protobuf are saved in a folder in Ubuntu which shares with the Windows host.
+  
   Solution: download the codes to a directory which doesn't shared with the Windows host.
 
 ## References
